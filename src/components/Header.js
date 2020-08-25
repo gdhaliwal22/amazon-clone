@@ -19,6 +19,26 @@ function Header() {
         <SearchIcon className="header__searchIcon" />
       </div>
       {/* {3 links} */}
+      <div className="header__nav">
+        <Link to="/login" className="header__link">
+          <div className="header__option">
+            <span className="header__optionLineOne">Hello G</span>
+            <span className="header__optionLineTwo">Sign In</span>
+          </div>
+        </Link>
+        <Link to="/" className="header__link">
+          <div className="header__option">
+            <span className="header__optionLineOne">Returns</span>
+            <span className="header__optionLineTwo">& Order</span>
+          </div>
+        </Link>
+        <Link to="/" className="header__link">
+          <div className="header__option">
+            <span className="header__optionLineOne">Your</span>
+            <span className="header__optionLineTwo">Prime</span>
+          </div>
+        </Link>
+      </div>
       {/* {Basket icon with number} */}
     </nav>
   );
