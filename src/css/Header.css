@@ -29,6 +29,16 @@
   margin-right: 10px;
 }
 
+.header__optionBasket {
+  display: flex;
+  align-items: center;
+}
+
+.header__basketCount {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .header__optionLineOne {
   font-size: 10px;
 }

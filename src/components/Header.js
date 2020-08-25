@@ -2,11 +2,10 @@ import React from "react";
 import "../css/Header.css";
 import { Link } from "react-router-dom";
 import SearchIcon from "@material-ui/icons/Search";
-
+import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
 function Header() {
   return (
     <nav className="header">
-      {/* {logo on the left} */}
       <Link to="/">
         <img
           className="header__logo"
@@ -38,8 +37,13 @@ function Header() {
             <span className="header__optionLineTwo">Prime</span>
           </div>
         </Link>
+        <Link to="/checkout" className="header__link">
+          <div className="header__optionBasket">
+            <ShoppingBasketIcon />
+            <span className="header__optionLineTwo header__basketCount">0</span>
+          </div>
+        </Link>
       </div>
-      {/* {Basket icon with number} */}
     </nav>
   );
 }
