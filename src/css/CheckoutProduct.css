@@ -12,6 +12,15 @@
   padding: 20px;
 }
 
+.checkoutProduct__title {
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.checkoutProduct__rating {
+  display: flex;
+}
+
 .checkoutProduct__info > button {
   background: #f0c14b;
   border: 1px solid;
