@@ -51,7 +51,7 @@ function Home() {
       </div>
       <div className="home__row">
         <Product
-          id="5"
+          id="6"
           title='LG 38WN95C 38" UWQHD+ Curved Nano IPS Monitor'
           price={"2,299.00"}
           rating={6}
