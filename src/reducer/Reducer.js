@@ -9,7 +9,7 @@ const reducer = (state, action) => {
     case "ADD_TO_BASKET":
       return {
         ...state,
-        basket:
+        basket: [...state.basket, action.item],
       };
       // Logic for adding item to basket
       break;
