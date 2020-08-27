@@ -19,10 +19,10 @@ function Login() {
           <input type="text"></input>
           <h5>Password</h5>
           <input type="password"></input>
-          <button>Sign In</button>
+          <button className="login__signInButton">Sign In</button>
         </form>
         <p>
-          By signin-in you agree to Amazon's Conditions of Use & Sale. Please
+          By signing-in you agree to Amazon's Conditions of Use & Sale. Please
           see our Privacy Notice, our Cookies Notice and our Interested-Based
           Ads Notice
         </p>
